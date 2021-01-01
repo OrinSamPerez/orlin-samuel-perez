@@ -1,0 +1,63 @@
+.nav-fixed{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    right: 18%;
+    position: fixed;
+
+}
+.nav-fixed img{
+    width: 35px;
+    height: 35px;
+    margin-left:5px ;
+}
+
+li{
+    list-style: none;
+    color: black;
+    margin-left:5px;
+}
+ul{
+    color: black;
+    display: flex;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.nav-fixed a{
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 200px;
+    padding: 10px;
+    margin: auto;
+  
+
+}
+.nav-fixed span{
+    line-height: 40px;
+}
+.whastapp,
+.gmail-icons,
+.contact-icons,
+.linkedln-icons{
+
+    display: none;
+    color: black;
+}
+.nav-fixed a:hover> .whastapp{
+    display: block;
+    
+}
+.nav-fixed a:hover> .gmail-icons{
+    display: block;
+}
+.nav-fixed a:hover> .contact-icons{
+    display: block;
+}
+.nav-fixed a:hover> .linkedln-icons{
+    display: block;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/About.css">
+    <link rel="stylesheet" href="../styles/animation.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/navBar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Orlin Samuel Perez | Portafolio</title>
+  </head>
+  <body>
+
+    <div class="baner">
+      <div class="nav-fixed">
+        <nav>
+          <ul>
+            <li><a  href="#"> <span class="whastapp">809-968-7291</span> <img src="https://www.flaticon.es/svg/static/icons/svg/1384/1384023.svg" alt=""></a> </li>
+            <li><a href="#"><span class="gmail-icons">orlinsperez28@gmail.com</span><img src="https://www.flaticon.es/svg/static/icons/svg/324/324123.svg" alt=""></a></li>
+            <li><a href="#contact"><span class="contact-icons">Contact Me</span><img src="https://www.flaticon.es/svg/static/icons/svg/2590/2590818.svg" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/in/orlin-samuel-36535a1a0" target="_blank"><span class="linkedln-icons">Orlin Samuel</span><img src="https://www.flaticon.es/svg/static/icons/svg/1383/1383329.svg" alt=""></a></li>
+  
+          </ul>
+        </nav>
+      </div>
+      <div class="baner__content">
+        <div class="baner-sub">
+          <span class="logo"></span>
+          <h1 class="title">
+            <span>Orlin Samuel Perez | Frontend Developer</span>
+          </h1>
+          <h2 class="title"><span class="baner__info"></span></h2>
+        </div>
+        <div>
+          <a href="#about" class="more">Learn More</a>
+          <a href="#contact" class="more-curiculum">Contact Me</a>
+        </div>
+        <div class="wave" style="height: 150px; overflow: hidden">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 100%"
+          >
+            <path
+              d="M0.00,49.98 C146.44,228.45 276.80,-109.03 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: rgb(255, 255, 255)"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+
+    <h1 class="titles" id="about">About</h1>
+    <section class="about">
+      <div class="about-us">
+        <img src="../img/MiFoto.jpeg" id="about-img" alt="Orlin">
+        <h2 id="textH2">My name is: Orlin Samuel Perez</h2>
+        <p class="">
+          Hello! Currently, I work as a frontend developer, 
+          studied computer systems engineering. I am self-taught 
+          by vocation, I like to learn new things and face new challenges.
+        </p>
+      </div>
+
+
+      <div class="about-skills" id="skills">
+          
+          <div class="skills-about">
+            <h2>Skills</h2>
+              <p>
+                My skills are <span>Html, Css and JavaScript</span>, fundamental for the frontend development of web pages. <span>React</span> js technology created by facebook, to make Single-page application (SPA) used in app like facebook, instagram, etc. <span>Figma</span> for creating user interfaces for both web and mobile.
+              </p>
+          </div>
+          <div>
+            <img src="../img/skills.svg" alt="">
+          </div>
+      </div>
+
+      <div class="about-work" id="work">
+        <div>
+          <img src="../img/work.svg" alt="">
+        </div>
+        <div>
+          <h2>Way of working</h2>
+          <p>
+            The work I use for work is scrum which is used for agile software development.
+            I develop clean code, to have a quick and efficient understanding. My soft skills 
+            are teamwork, communication, proactivity, critical thinking and responsibility.
+          </p>
+        </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="contact">
+      <div class="contact-info">
+        <div class="wave-1" style="height: 150px; overflow: hidden">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 100%"
+          >
+            <path
+              d="M0.00,49.98 C146.44,228.45 276.80,-109.03 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: rgb(255, 255, 255)"
+            ></path>
+          </svg>
+        </div>
+        
+        <div class="contact-content">
+
+            <div class="contact-form" id="contact">
+              
+                <form id="contact"action="">
+                  <h2>Contact Me</h2>
+                    <label for="">
+                        <input id="name" type="text" required placeholder="Write the company name or your name">
+                    </label>
+                    <br>
+                    <label for="">
+                        <input id="email" type="email" required placeholder="write your gmail">
+                    </label>
+                    <br>
+                    <textarea name="description" id="description" cols="30" rows="6"placeholder="write a message..."></textarea>
+                    <br>
+                    <label for="">
+                        <input class="send" type="submit" value="Send">
+                    </label>
+                  
+                </form>
+            </div>
+            
+        </div>
+
+      </div>
+    </section>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.2.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.2.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+    <script src="../src/scroll.js"></script>
+  
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+    <script src="../src/apiConfig.js"></script>
+    <script>
+
+
+        </script>
+            <script src="../src/storage.js"></script>
+  </body>
+</html>

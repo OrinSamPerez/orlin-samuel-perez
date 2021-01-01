@@ -1,0 +1,70 @@
+
+.about-us{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.about-us img{
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about-us h2{
+    color: rgb(0, 199, 235);
+}
+.about-us,
+.about-work p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.about-skills{
+    padding: 35px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.about-skills img{
+    width: 100%;
+    height: auto;
+}
+.skills-about{
+    padding: 150px;
+    padding-top: 60px;
+    text-align: justify;
+}
+.skills-about,
+.about-work h2{
+    text-align: center;
+}
+.skills-about img{
+    width: 20%;
+    height: 20%;
+}
+.skills-about span  {
+    color: rgb(255, 0, 119);
+}
+.about-work{
+    padding: 45px;
+    display: grid;
+    grid-template-columns: 40% 60%;  
+}
+.about-work img{
+    width: 100%;
+    height: auto;   
+}
+@media (max-width:800px){
+    .about-skills{
+        padding: 10px;
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .skills-about{
+        padding: 80px;
+  
+    }
+}
